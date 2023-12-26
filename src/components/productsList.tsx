@@ -89,6 +89,7 @@ const ProductsList = (props: Props) => {
           className="btn btn-primary"
           isDisabled={page === 1 ? true : false}
           onClick={() => handleChangePage(page - 1)}
+          mx={2}
         >
           Previous
         </Button>

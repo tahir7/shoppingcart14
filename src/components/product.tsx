@@ -19,8 +19,7 @@ const Product = ({ product }: Props) => {
   return (
     <>
       {/* {product.id % 2 === 0 ? (color = "red") : color} */}
-      <Card borderRadius={10}>
-        {product.id}
+      <Card borderRadius={10} mx={1}>
         <CardHeader>
           <Heading size="xs">{product.title}</Heading>
         </CardHeader>
